@@ -1,0 +1,31 @@
+tonigerber.com
+
+cPanel username
+blxuser
+lbx77!23D
+
+FTP Username: ClaireLogan
+FTP server: ftp.tonigerber.com
+FTP & explicit FTPS port:  21
+B4eanie1
+
+github?
+
+SQL Server
+Server : 198.71.226.6
+DB : blx_db
+Username : blx_db_user
+Password : ek287X~q
+
+=== old site.
+
+licensedbedexchange.com
+
+cPanel username
+lbxuser
+lbx77!23D
+
+FTP Username: claygifford@licensedbedexchange.com
+FTP server: ftp.licensedbedexchange.com
+FTP & explicit FTPS port:  21
+B4eanie1

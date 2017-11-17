@@ -1,0 +1,187 @@
+.menu-offset {
+	height: 120px;
+}
+
+.menu-container {
+	background-color: #231f20;
+
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+ 	
+ 	-webkit-justify-content:center;
+  	justify-content: center;
+}
+
+.menu-item { 
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+
+  	 -webkit-align-items:center;
+  	align-items: center;
+
+	font-size: 24px;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-weight: bold;
+    text-transform: uppercase;	
+	color: white;
+	cursor: pointer;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	height: 100%;
+}
+
+.writing-samples-menu {
+	padding-left: 41px;
+	padding-right: 41px;
+}
+
+.writing-samples-dropdown-menu {
+	width: 287px;
+	background-color: #864c9e;
+	padding: 0px;
+	margin: 0px;
+
+	font-size: 17px;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+.writing-samples-dropdown-menu > li {
+	padding: 10px 10px 10px 40px;
+}
+
+.open > .writing-samples-menu {
+	background-color: #695974;
+}
+
+.dropdown-backdrop {
+    display:none;
+}
+
+.awards-menu {
+	padding-left: 51px;
+	padding-right: 51px;
+}
+
+.awards-dropdown-menu {
+	width: 203px;
+	background-color: #81be41;
+	padding: 0px;
+	margin: 0px;
+
+	font-size: 17px;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+.open > .awards-menu {
+	background-color: #69795a;
+}
+
+.awards-dropdown-menu > li {
+	padding: 10px 10px 10px 10px;
+}
+
+.awards-text {
+	font-size: 14px;
+	font-weight: normal;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	color: white;
+}
+
+.certifications-menu {
+	padding-left: 44px;
+	padding-right: 44px;
+}
+
+.certifications-dropdown-menu {
+	width: 271px;
+	background-color: #fbad18;
+	padding: 0px;
+	margin: 0px;
+
+	font-size: 17px;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+.open > .certifications-menu {
+	background-color: #8b7553;
+}
+
+.certifications-dropdown-menu > li {
+	padding: 10px 10px 10px 10px;
+}
+
+
+.publications-menu {
+	padding-left: 53px;
+	padding-right: 53px;
+}
+
+.publications-dropdown-menu {
+	width: 271px;
+	background-color: #1b9a94;
+	padding: 0px;
+	margin: 0px;
+
+	font-size: 17px;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+.open > .publications-menu {
+	background-color: #566f6f;
+}
+
+.publications-dropdown-menu > li {
+	padding: 10px 22px;
+}
+
+.publications-text {
+	font-size: 14px;
+	font-weight: normal;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	color: white;
+}
+
+.writing-samples-link {
+
+}
+
+a.writing-samples-link:link, a.writing-samples-link:visited { 
+    color: white;
+    text-decoration: underline;
+}
+
+a.writing-samples-link:link:active, a.writing-samples-link:visited:active { 
+    color: white;
+}
+
+@media (max-width: 1050px) {
+  .menu-item { 	
+  	font-size: 18px;
+  }
+}
+
+@media (max-width: 850px) {
+  .menu-item { 	
+  	font-size: 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  .menu-container { 	
+  	display: block;
+  }
+}
